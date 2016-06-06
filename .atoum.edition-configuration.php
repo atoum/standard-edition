@@ -30,3 +30,15 @@ if ($telemetryEnabled > 0) {
 
     $runner->addReport($telemetry);
 }
+
+$xunitFile = getenv('XUNIT_REPORT_PATH');
+if ($xunitFile) {
+    $xunitFileDir = pathinfo($xunitFile, PATHINFO_DIRNAME);
+    if (!is_dir($xunitFileDir)) {
+        mkdir($xunitFileDir, 0777, true);
+    }
+    $xunit = new mageekguy\atoum\reports\asynchronous\xunit();
+    $writer = new mageekguy\atoum\writers\file($xunitFile);
+    $xunit->addWriter($writer);
+    $runner->addReport($xunit);
+}

@@ -7,5 +7,9 @@
         "atoum/visibility-extension": "dev-master as 1.0",
         "atoum/config-extension": "dev-merge_prs as 1.0",
         "atoum/reports-extension": ">2.3,<3.0"
+    },
+    "autoload":
+    {
+        "files": [ "autoload.php" ]
     }
 }

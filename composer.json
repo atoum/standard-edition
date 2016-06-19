@@ -1,7 +1,7 @@
 {
     "name": "atoum/standard-edition",
     "require": {
-        "atoum/atoum": "dev-edition_configuration as 2.7.0",
+        "atoum/atoum": "dev-merge_prs as 2.7.0",
         "atoum/stubs": "^2.5",
         "atoum/autoloop-extension": "^0.1.0",
         "atoum/visibility-extension": "dev-master as 1.0",

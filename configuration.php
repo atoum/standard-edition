@@ -7,7 +7,6 @@ $extension = new mageekguy\atoum\visibility\extension($script);
 $extension->addToRunner($runner);
 
 $runner->addExtension(new mageekguy\atoum\reports\extension($script));
-$runner->addExtension(new mageekguy\atoum\config\extension($script));
 
 
 $composerFile = new \mageekguy\atoum\standard_edition\composer\file(__DIR__ . '/../../../composer.json');

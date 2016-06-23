@@ -1,8 +1,5 @@
 <?php
 
-$extension = new mageekguy\atoum\autoloop\extension($script);
-$extension->addToRunner($runner);
-
 $extension = new mageekguy\atoum\visibility\extension($script);
 $extension->addToRunner($runner);
 

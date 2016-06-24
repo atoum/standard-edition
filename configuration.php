@@ -1,7 +1,5 @@
 <?php
 
-$runner->addExtension(new mageekguy\atoum\reports\extension($script));
-
 $composerFile = new \mageekguy\atoum\standard_edition\composer\file(__DIR__ . '/../../../composer.json');
 
 $telemetryEnabled = getenv('TELEMETRY_ENABLED');

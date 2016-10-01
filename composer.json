@@ -1,7 +1,7 @@
 {
     "name": "atoum/standard-edition",
     "require": {
-        "atoum/atoum": "dev-edition_configuration as 2.8.0",
+        "atoum/atoum": "dev-runner-auto-conf as 2.8.0",
         "atoum/stubs": "^2.5",
         "atoum/autoloop-extension": "^0.1.0",
         "atoum/visibility-extension": "dev-self_register as 1.1",

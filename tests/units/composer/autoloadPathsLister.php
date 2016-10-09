@@ -1,13 +1,13 @@
 <?php
 
-namespace mageekguy\atoum\standard_edition\tests\units;
+namespace mageekguy\atoum\standard_edition\composer\tests\units;
 
 use
     mageekguy\atoum,
-    mageekguy\atoum\standard_edition\autoloadPathsLister as testedClass
+    mageekguy\atoum\standard_edition\composer\autoloadPathsLister as testedClass
 ;
 
-require_once __DIR__ . '/../../classes/autoloadPathsLister.php';
+require_once __DIR__ . '/../../../classes/composer/autoloadPathsLister.php';
 
 class autoloadPathsLister extends atoum\test
 {

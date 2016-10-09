@@ -35,7 +35,7 @@ if ($xunitFile) {
 }
 
 
-if ($composerFile->exists()) {
+if (class_exists('mageekguy\atoum\autoloop\extension') && $composerFile->exists()) {
     $runner
         ->getExtension(mageekguy\atoum\autoloop\extension::class)
         ->setWatchedFiles($composerFile->listAbsoluteAutoloadPaths())

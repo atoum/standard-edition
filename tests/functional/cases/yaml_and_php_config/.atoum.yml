@@ -1,0 +1,4 @@
+atoum:
+    directories:
+        - ./test2
+

@@ -8,5 +8,6 @@ env:
     - COMPOSER_PREFER="--prefer-lowest"
 sudo: false
 script:
-  - composer update $COMPOSER_PREFER
-  - ./vendor/bin/atoum
+#  - composer update $COMPOSER_PREFER
+#  - ./vendor/bin/atoum
+  - ./tests/functional/launch_tests.sh

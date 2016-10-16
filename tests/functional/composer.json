@@ -1,0 +1,41 @@
+{
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+   "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/atoum/standard-edition"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/atoum-config-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/autoloop-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/visibility-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/atoum/atoum"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/reports-extension"
+        }
+    ],
+    "require": {
+      "atoum/standard-edition": "dev-master",
+      "atoum/atoum": "2.9.0-beta1",
+      "atoum/autoloop-extension": "dev-self_register as 0.1.0",
+      "atoum/visibility-extension": "dev-self_register as 1.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "myvendor\\myproject\\": "src/"
+      }
+    }
+}

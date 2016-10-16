@@ -4,7 +4,7 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "/home/agallou/Projets/atoum-standard-edition"
+            "url": "https://github.com/atoum/standard-edition"
         },
         {
             "type": "vcs",

@@ -1,30 +1,32 @@
-# atoum standard edition
+# atoum standard edition [![Build Status](https://travis-ci.org/atoum/standard-edition.svg?branch=master)](https://travis-ci.org/atoum/standard-edition)
 
-atoum standard edition is a version of atoum that directly contains code completion in IDE, configuration via a YAML file and environnement variables to simplfy the usage of atoum on CI tools. Il also comes with some usefull extensions to test protected method or to add new reports to atoum.
+atoum standard edition is an opinionated packaging of atoum. It contains features that are not considered best practices in atoum's core, but could be usefull and used by many developpers. It is also aimed to ease the integration on ci environments and levreage the composer.json file to provide some automatic configuration.
+
 
 ## Install it
 
 You just have to require `atoum/standard-edition` via composer. You don't need to install atoum manually.
 
 ```
-composer require atoum/standard-edition
+composer require --dev atoum/standard-edition
 ```
 
-## What it does
+## Features
 
-* installs [atoum/atoum](https://github.com/atoum/atoum),
-* installs [atoum/config-extension](https://github,.com/jubianchi/atoum-config-extension),
-* installs [atoum/reports-extension](https://github.com/atoum/reports-extension),
-* installs [atoum/visibility-extension](https://github.com/atoum/visibility-extension),
-* installs [atoum/stubs](https://github.com/atoum/stubs),
-* provides an environnement variable to generate xunit files,
-* provides an environnement variable to participate in the telemetry project,
-* configures the autoloop extension if present.
+* yml and php configuration for atoum,
+* build-in IDE completion for your tests,
+* build-in testing of protected methods,
+* simplified integration in your ci environments,
+* ...
 
+See below for the full list of features.
 
 ## Detailled Features
 
 ### Features provided by extensions
+
+For each of these features, the best is to read the documentation for each of them. Just remember they are ready to use, so you don't need to configure it in the configuration file or whatever.
+
 
 * override the visibility of method to test protected methods (see [atoum/visibility-extension](https://github.com/atoum/visibility-extension))
 * configure atoum via a YAML file instead of a PHP file see ([atoum/config-extension](https://github.com/jubianchi/atoum-config-extension)) (but you can continue to use the PHP file if you want a more customizable configuration)
@@ -55,12 +57,15 @@ If the autoloop extension is installed, files/folders defined in the autoload se
 You must manually install the [autoloop extension](https://github.com/atoum/autoloop-extension) (because some of its dependancies may cause conflicts on your project).
 
 
-
 ## Links
 
 * [atoum](http://atoum.org)
 * [atoum's documentation](http://docs.atoum.org)
-
+* [atoum-config-extension](https://github,.com/jubianchi/atoum-config-extension)
+* [atoum-reports-extension](https://github.com/atoum/reports-extension)
+* [atoum-visibility-extension](https://github.com/atoum/visibility-extension)
+* [atoum stubs](https://github.com/atoum/stubs)
+* [atoum-autoloop-extension](https://github.com/atoum/autoloop-extension)
 
 ## Licence
 

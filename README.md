@@ -1,6 +1,6 @@
 # atoum standard edition [![Build Status](https://travis-ci.org/atoum/standard-edition.svg?branch=master)](https://travis-ci.org/atoum/standard-edition)
 
-atoum standard edition is an opinionated packaging of atoum. It contains features that are not considered best practices in atoum's core, but could be usefull and used by many developpers. It is also aimed to ease the integration on ci environments and levreage the composer.json file to provide some automatic configuration.
+atoum standard edition is an opinionated packaging of atoum. It contains features that are not considered best practices in atoum's core, but could be useful and used by many developers. It is also aimed to ease the integration on ci environments and leverage the composer.json file to provide some automatic configuration.
 
 
 ## Install it

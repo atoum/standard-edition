@@ -3,7 +3,6 @@
     "require": {
         "atoum/atoum": "^2.9",
         "atoum/stubs": "^2.5",
-        "atoum/autoloop-extension": "^0.1.0",
         "atoum/visibility-extension": "dev-self_register as 1.1",
         "atoum/config-extension": "dev-merge_prs as 1.0",
         "atoum/reports-extension": "dev-self_register as 2.9"
@@ -11,5 +10,8 @@
     "license": "MIT",
     "autoload": {
         "files": [ "autoload.php" ]
+    },
+    "suggest": {
+        "atoum/autoloop-extension": "Automaticly run your tests in atoum's loop mode when files are changed"
     }
 }

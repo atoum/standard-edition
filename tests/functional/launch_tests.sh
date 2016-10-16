@@ -13,7 +13,7 @@ rm -rf tmp
 mkdir -p tmp
 cp composer.json tmp/
 cd tmp
-composer install $COMPOSER_PREFER
+composer update $COMPOSER_PREFER
 cd $BASEDIR
 
 for dir in cases/*/

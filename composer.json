@@ -1,5 +1,8 @@
 {
     "name": "atoum/standard-edition",
+    "type": "package",
+    "keywords": ["TDD","atoum","test","unit testing","atoum-edition"],
+    "homepage": "http://www.atoum.org",
     "require": {
         "atoum/atoum": "^2.9",
         "atoum/stubs": "^2.5",
@@ -7,6 +10,11 @@
         "atoum/config-extension": "dev-merge_prs as 1.0",
         "atoum/reports-extension": "dev-self_register as 2.9"
     },
+    "authors": [
+        {
+            "name": "agallou"
+        }
+    ],
     "license": "MIT",
     "autoload": {
         "files": [ "autoload.php" ]

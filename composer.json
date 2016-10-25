@@ -10,11 +10,6 @@
         "atoum/config-extension": "dev-merge_prs as 1.0",
         "atoum/reports-extension": "dev-self_register as 2.9"
     },
-    "authors": [
-        {
-            "name": "agallou"
-        }
-    ],
     "license": "MIT",
     "autoload": {
         "files": [ "autoload.php" ]

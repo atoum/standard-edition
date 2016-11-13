@@ -1,5 +1,7 @@
 {
     "name": "atoum/standard-edition",
+    "keywords": ["TDD", "atoum", "test", "unit testing", "atoum-edition"],
+    "homepage": "http://www.atoum.org",
     "require": {
         "atoum/atoum": "^2.9",
         "atoum/stubs": "^2.5",

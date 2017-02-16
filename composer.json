@@ -6,7 +6,7 @@
         "atoum/atoum": "^2.9",
         "atoum/stubs": "^2.5",
         "atoum/visibility-extension": "dev-self_register as 1.1",
-        "atoum/config-extension": "dev-merge_prs as 1.0",
+        "atoum/config-extension": "^0.1",
         "atoum/reports-extension": "dev-self_register as 2.9"
     },
     "license": "MIT",

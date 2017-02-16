@@ -13,15 +13,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/agallou/visibility-extension"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/atoum/atoum"
         }
     ],
     "require": {
       "atoum/standard-edition": "dev-master",
-      "atoum/atoum": "2.9.0-beta1",
       "atoum/autoloop-extension": "dev-self_register as 0.1.0",
       "atoum/visibility-extension": "dev-self_register as 1.1"
     },

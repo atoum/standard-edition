@@ -8,10 +8,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/agallou/atoum-config-extension"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/agallou/autoloop-extension"
         },
         {

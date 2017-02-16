@@ -17,10 +17,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/atoum/atoum"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/agallou/reports-extension"
         }
     ],
     "require": {

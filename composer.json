@@ -5,7 +5,7 @@
     "require": {
         "atoum/atoum": "^2.9",
         "atoum/stubs": "^2.5",
-        "atoum/visibility-extension": "dev-self_register as 1.1",
+        "atoum/visibility-extension": "^1.2",
         "atoum/config-extension": "^0.1",
         "atoum/reports-extension": "^2.4"
     },

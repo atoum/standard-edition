@@ -3,12 +3,12 @@
    "prefer-stable": true,
    "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/atoum/standard-edition"
+            "type": "path",
+            "url": "STD_EDITION_DIR"
         }
     ],
     "require": {
-      "atoum/standard-edition": "dev-master",
+      "atoum/standard-edition": "*",
       "atoum/autoloop-extension": "^0.2"
     },
     "autoload": {

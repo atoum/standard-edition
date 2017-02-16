@@ -2,6 +2,7 @@
 
 BASEDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 TESTDIR=/tmp/tests_atoum_std_edition
+PREPARATIONDIR=/tmp/tests_atoum_std_editon_tmp
 EXECLOG=$TESTDIR/log_exec_test.log
 
 export TESTDIR
@@ -9,11 +10,12 @@ export EXECLOG
 
 cd $BASEDIR
 
-rm -rf tmp
-mkdir -p tmp
-cp composer.json tmp/
-cd tmp
-composer update $COMPOSER_PREFER
+rm -rf $PREPARATIONDIR
+mkdir -p $PREPARATIONDIR
+cp composer.json $PREPARATIONDIR
+sed --in-place "s#STD_EDITION_DIR#$BASEDIR/../../#" $PREPARATIONDIR/composer.json
+cd $PREPARATIONDIR
+php $BASEDIR/../../composer.phar update $COMPOSER_PREFER
 cd $BASEDIR
 
 for dir in cases/*/
@@ -24,11 +26,11 @@ do
     CASE=${dir##*/}
 
     cp -R cases/$CASE $TESTDIR
-    cp composer.json $TESTDIR/
-    cp tmp/composer.lock $TESTDIR/
+    cp $PREPARATIONDIR/composer.json $TESTDIR/
+    cp $PREPARATIONDIR/composer.lock $TESTDIR/
     cd $TESTDIR
 
-    composer install
+    $BASEDIR/../../composer.phar install
 
     $TESTDIR/run.sh
 

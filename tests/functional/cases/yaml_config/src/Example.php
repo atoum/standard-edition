@@ -4,9 +4,8 @@ namespace myvendor\myproject;
 
 class Example
 {
-
-	public function doSometing()
-	{
-		return 40;
-	}
+    public function doSometing()
+    {
+        return 40;
+    }
 }

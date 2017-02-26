@@ -2,16 +2,14 @@
 
 namespace mageekguy\atoum\standard_edition\composer\tests\units;
 
-use
-    mageekguy\atoum,
-    mageekguy\atoum\standard_edition\composer\autoloadPathsLister as testedClass
+use mageekguy\atoum;
+use mageekguy\atoum\standard_edition\composer\autoloadPathsLister as testedClass
 ;
 
 require_once __DIR__ . '/../../../classes/composer/autoloadPathsLister.php';
 
 class autoloadPathsLister extends atoum\test
 {
-
     /**
      * @dataProvider listPathsDataProvider
      */
@@ -151,5 +149,4 @@ class autoloadPathsLister extends atoum\test
             ],
         ];
     }
-
 }

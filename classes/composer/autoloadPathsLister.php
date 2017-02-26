@@ -50,5 +50,4 @@ class autoloadPathsLister
 
         return $paths;
     }
-
 }

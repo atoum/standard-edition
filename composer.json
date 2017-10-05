@@ -3,11 +3,12 @@
     "keywords": ["TDD", "atoum", "test", "unit testing", "atoum-edition"],
     "homepage": "http://www.atoum.org",
     "require": {
-        "atoum/atoum": "^2.9|^3.0",
+        "atoum/atoum": "^3.2",
         "atoum/stubs": "^2.5",
         "atoum/visibility-extension": "^1.2",
         "atoum/config-extension": "^0.1",
-        "atoum/reports-extension": "^2.4"
+        "atoum/reports-extension": "^3.0",
+        "atoum/telemetry-extension": "^1.0"
     },
     "license": "MIT",
     "autoload": {

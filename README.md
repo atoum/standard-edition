@@ -32,6 +32,7 @@ For each of these features, the best is to read the documentation for each of th
 * configure atoum via a YAML file instead of a PHP file see ([atoum/config-extension](https://github.com/jubianchi/atoum-config-extension)) (but you can continue to use the PHP file if you want a more customizable configuration)
 * you IDE will provide you completion when writting your tests thanks to the [stubs](https://github.com/atoum/stubs)
 * you can configure atoum to generate a branch and path coverage report thanks to [atoum/reports-extension](https://github.com/atoum/reports-extension)
+* you can activate telemetry reports thanks to [atoum/telemetry-extension](https://github.com/atoum/telemetry-extension)
 
 ### Generate an xUnit report with ease
 
@@ -66,6 +67,7 @@ You must manually install the [autoloop extension](https://github.com/atoum/auto
 * [atoum-visibility-extension](https://github.com/atoum/visibility-extension)
 * [atoum stubs](https://github.com/atoum/stubs)
 * [atoum-autoloop-extension](https://github.com/atoum/autoloop-extension)
+* [atoum-telemetry-extension](https://github.com/atoum/telemetry-extension)
 
 ## Licence
 

@@ -6,7 +6,7 @@
         "atoum/atoum": "^3.2",
         "atoum/stubs": "^2.5",
         "atoum/visibility-extension": "^1.2",
-        "atoum/config-extension": "^0.1",
+        "atoum/config-extension": "^0.2",
         "atoum/reports-extension": "^3.0",
         "atoum/telemetry-extension": "^1.0"
     },

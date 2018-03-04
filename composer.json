@@ -3,7 +3,7 @@
     "keywords": ["TDD", "atoum", "test", "unit testing", "atoum-edition"],
     "homepage": "http://www.atoum.org",
     "require": {
-        "atoum/atoum": "^2.9",
+        "atoum/atoum": "^2.9|^3.0",
         "atoum/stubs": "^2.5",
         "atoum/visibility-extension": "^1.2",
         "atoum/config-extension": "^0.1",

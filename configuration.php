@@ -6,7 +6,7 @@ $telemetryEnabled = getenv('TELEMETRY_ENABLED');
 if ($telemetryEnabled > 0) {
     $script->addDefaultReport();
 
-    $telemetry = new mageekguy\atoum\reports\telemetry();
+    $telemetry = new mageekguy\atoum\telemetry();
     $telemetry->addWriter(new mageekguy\atoum\writers\std\out());
 
     if ($composerFile->exists()) {

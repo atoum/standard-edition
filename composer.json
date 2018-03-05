@@ -4,9 +4,9 @@
     "homepage": "http://www.atoum.org",
     "require": {
         "atoum/atoum": "^3.2",
-        "atoum/stubs": "^2.5",
-        "atoum/visibility-extension": "^1.2",
-        "atoum/config-extension": "^0.2",
+        "atoum/stubs": "^2.6",
+        "atoum/visibility-extension": "^1.3",
+        "atoum/config-extension": "^0.3",
         "atoum/reports-extension": "^3.0",
         "atoum/telemetry-extension": "^1.0"
     },
@@ -15,7 +15,7 @@
         "files": [ "autoload.php" ]
     },
     "suggest": {
-        "atoum/autoloop-extension": "Automaticly run your tests in atoum's loop mode when files are changed"
+        "atoum/autoloop-extension": "Automatically run your tests in atoum's loop mode when files are changed"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^1.12"
